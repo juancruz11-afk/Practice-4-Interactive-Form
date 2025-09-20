@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle/style.css">
+    <title><Form></Form></title>
+</head>
+<body>
+    <header>
+        <h1>Juan Carlos form</h1>
+    </header>
+    <main>
+        <div class="input-name">
+            <p>Enter Your Full Name</p>
+            <input type="text" id="inputName">
+            <span id="errorName" class="alert-error"></span>
+        </div>
+        <br>
+        <div class="input-correo">
+            <p>Enter Your Email</p>
+            <input type="email" id="inputEmail">
+            <span id="errorEmail" class="alert-error"></span>
+        </div>
+        <br>
+        <div class="input-phone">
+            <p>Enter your cell phone number</p>
+            <input type="number" id="inputPhone">
+            <span id="errorPhone" class="alert-error"></span>
+        </div>
+        <br>
+        <button id="addAllButton">Add</button>
+    </main>
+    <section>
+        <h2>Datos Ingresados</h2>
+        <ul id="dataList"></ul>
+    </section>
+
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
